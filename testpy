@@ -1,0 +1,3 @@
+import os
+os.system('sed -i "s/[\\]n/\\n/g" /root/arth/test.py')
+os.system('sed -i "s/[\\]t/\\t/g" /root/arth/test.py')
